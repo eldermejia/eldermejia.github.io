@@ -27,7 +27,11 @@ transition: 0.3s;
 font-size: 17px;
 }
 
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover:not(.active) {background-color: #555;}
+
+.active {
+    background-color: #4CAF50;
+}
 
 ul.topnav li.icon {display: none;}
 
@@ -54,10 +58,7 @@ ul.topnav.responsive li a {
 	display: block;
 	text-align: left;
 }
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
+
 }
 </style>
 </head>
