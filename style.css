@@ -51,5 +51,8 @@ ul.topnav.responsive li a {
 	display: block;
 	text-align: left;
 }
-
+}
+body {
+  background-image:
+	url('http://pages.stern.nyu.edu/~stk276/websys/new-york-black-and-white-skyline-photography-skyline-buildings-black-and-white-hd-wallpapers-in-skyline.jpg');
 }
