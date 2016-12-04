@@ -20,10 +20,10 @@ transition: 0.3s;
 font-size: 19px;
 }
 
-ul.topnav li a:hover:not(.active) {color: lightgrey;}
+ul.topnav li a:hover:not(.active) {color: grey;}
 
 .active {
-    background-color: #4CAF50;
+    color: #4CAF50;
 }
 
 ul.topnav li.icon {display: none;}
